@@ -1,0 +1,258 @@
+/* header */
+
+body {
+  max-width: 768px;
+  margin: 0 auto;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.5;
+  background-color: #ddd;
+}
+
+.header,
+.footer {
+  display: grid;
+  grid-template-columns: 83px auto;
+  height: 80px;
+  padding: 30px 39px;
+  color: #F5F5F5;
+  background-color: #131313;
+}
+
+.header__logo-img,
+.footer__logo-img {
+  height: 100%;
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
+}
+
+.header__menu,
+.footer__menu {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.header__menu-list,
+.footer__menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.header__menu-list-item,
+.footer__menu-list-item {
+  list-style: none;
+}
+
+.header__menu-list-item-link,
+.footer__menu-list-item-link {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.header__menu-list-item-link_active,
+.footer__menu-list-item-link_active {
+  text-decoration: none;
+}
+
+/* sections */
+
+.section {
+  padding: 60px 39px;
+}
+
+.section_hero {
+  padding: 116px 39px;
+}
+
+.section_gap_30 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section_gap_20 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section__title_lagre {
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  line-height: 1;
+}
+
+.line-height_normal {
+  line-height: normal;
+}
+
+.section__title_small {
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.section__list {
+  list-style: none;
+}
+
+.list-style-line {
+  margin-left: 16px;
+  font-weight: 400;
+  list-style-type: '\2014';
+}
+
+.list-style-line_item {
+  padding-left: 14px;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
+/* sections theme */
+
+.section_theme-dark-blue {
+  color: #fff;
+  background-color: #2F2C45;
+}
+
+.section_theme-white {
+  background-color: #fff;
+}
+
+.section_theme-yellow {
+  background-color: #F2C94C;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 30px ;
+  padding-top: 40px;
+  list-style: none;
+}
+
+.card__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 330px;
+}
+
+/* theme-yellow */
+
+.card__list-item-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 9px 43px 0px 43px;
+  background-color: #F6C055;
+}
+
+.theme-yellow_item {
+  font-size: 30px;
+  line-height: normal;
+}
+
+.item_color-green {
+ color: #589F46;
+}
+
+.item_color-violet {
+ color: #7125BC;
+}
+
+/* cards */
+
+.card__img_dots {
+  background-image: url('../images/dots.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.card__img_butterfly {
+  background-image: url('../images/butterfly.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.card__img_stairs {
+  background-image: url('../images/stairs.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.card__img_wave {
+  background-image: url('../images/wave.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.card__list-item-point {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  height: 425px;
+  border-radius: 0px 0px 20px 20px;
+  padding: 30px;
+  color: #131313;
+  background: #EDF0F9;
+}
+
+.card__item-title {
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.card__item-text {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+/* footer */
+.footer__copyright {
+  padding-top: 3px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.footer__copyright-r {
+  color: #3F2AFF;
+}
